@@ -2,7 +2,6 @@
 RateMe is a web application designed for users to submit reviews and ratings for various products or services. This project is a work in progress. It is an application for allowing users to keep track of rating products and services. The current version includes basic functionality for adding and deleting reviews.
 
 ## Future Development
-- Connect to a cloud database for storing reviews.
 - Implement user authentication and authorization.
 - Add user connectivity to allow users to see a partner's reviews for the same products.
 
@@ -10,12 +9,13 @@ RateMe is a web application designed for users to submit reviews and ratings for
 - **Submit Reviews**: Users can submit reviews by providing details such as title, type or product, rating, and comment.
 - **Browse Reviews**: Browse through created reviews.
 - **Delete Reviews**: Users can delete reviews if needed.
+- **Update Reviews**: Users can update reviews if needed.
 
 ## Technologies Used
 - **Spring Boot**: Framework for building Java-based web applications.
 - **Thymeleaf**: Server-side Java template engine for web development.
 - **Bootstrap**: Front-end framework for responsive and mobile-first web development.
-- **H2 Database**: Lightweight in-memory database for storing review data.
+- **MongoDB**: NoSQL databse used, connected to the cloud.
 
 ## Installation
 1. Clone the repository:
