@@ -17,26 +17,6 @@ RateMe is a web application designed for users to submit reviews and ratings for
 - **Bootstrap**: Front-end framework for responsive and mobile-first web development.
 - **MongoDB**: NoSQL databse used, connected to the cloud.
 
-## Installation
-1. Clone the repository:
-```
-git clone https://github.com/connorhehn/JavaRatingApp.git
-```
-2. Navigate to the project directory:
-```
-cd JavaRatingApp
-```
-3. Build the project using Maven:
-```
-./mvnw package
-```
-4. Run the application:
-```
-java -jar target/*.jar
-```
-
-5. Access the application in your browser at `http://localhost:8080`.
-
 ## Usage
 1. Navigate to the application's home page.
 2. Submit a new review by filling out the form fields and clicking the "Submit" button.
