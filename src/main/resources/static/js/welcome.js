@@ -107,6 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 $('#review-' + reviewId + ' td:nth-child(2)').text(data.reviewType);
                 $('#review-' + reviewId + ' td:nth-child(3)').text(data.rating);
                 $('#review-' + reviewId + ' td:nth-child(4)').text(data.comment);
+                $('#reviewForm button[type="submit"]').removeData('review-id');
             } else {
                 // Add new review to table
                 addReviewToTable(data);
