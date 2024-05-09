@@ -14,17 +14,13 @@ RateMe is a web application designed for users to submit reviews and ratings for
 ## Technologies Used
 - **Spring Boot**: Framework for building Java-based web applications.
 - **Thymeleaf**: Server-side Java template engine for web development.
-- **Bootstrap**: Front-end framework for responsive and mobile-first web development.
 - **MongoDB**: NoSQL databse used, connected to the cloud.
 
 ## Usage
 1. Navigate to the application's home page.
 2. Submit a new review by filling out the form fields and clicking the "Submit" button.
 3. Browse existing reviews to see ratings and comments.
-4. Users can delete reviews as needed.
-
-## Contributing
-Contributions are welcome! Feel free to open issues or pull requests for any improvements or bug fixes.
+4. Users can update or delete reviews as needed.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
