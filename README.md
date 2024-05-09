@@ -7,7 +7,7 @@ RateMe is a web application designed for users to submit reviews and ratings for
 
 ## Features
 - **Submit Reviews**: Users can submit reviews by providing details such as title, type or product, rating, and comment.
-- **Browse Reviews**: Browse through created reviews.
+- **Browse Reviews**: Browse through created reviews and filter based on review type.
 - **Delete Reviews**: Users can delete reviews if needed.
 - **Update Reviews**: Users can update reviews if needed.
 
